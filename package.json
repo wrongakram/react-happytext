@@ -4,17 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint '**/*.js'",
+    "lint:fix": "prettier-eslint '**/*.js' --write"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/akramk22/react-happytext.git"
   },
-  "keywords": ["react-happytext"],
+  "keywords": [
+    "react-happytext"
+  ],
   "author": "Akram Khalid",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/akramk22/react-happytext/issues"
   },
-  "homepage": "https://github.com/akramk22/react-happytext#readme"
+  "homepage": "https://github.com/akramk22/react-happytext#readme",
+  "devDependencies": {
+    "eslint": "^5.15.2",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier-eslint": "^8.8.2",
+    "prettier-eslint-cli": "^4.7.1"
+  }
 }
