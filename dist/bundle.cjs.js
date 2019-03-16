@@ -1,0 +1,1 @@
+"use strict";function _interopDefault(e){return e&&"object"==typeof e&&"default"in e?e.default:e}var React=_interopDefault(require("react")),Happy=function(e){return React.createElement("h1",null,"Happy")};module.exports=Happy;
