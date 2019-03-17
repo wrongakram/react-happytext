@@ -18,7 +18,6 @@ app.get("*", (req, res) => {
       </head>
       <body>
         ${html}
-
         <style>
           span {
             font-size: 40px;

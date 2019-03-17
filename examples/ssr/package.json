@@ -7,9 +7,9 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "latest",
-    "react": "latest",
-    "react-dom": "latest",
+    "express": "^4.16.4",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
     "react-happytext": "file:../.."
   }
 }
