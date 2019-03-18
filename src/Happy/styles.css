@@ -6,7 +6,7 @@
   -webkit-animation: happyAni 30s ease infinite;
   -moz-animation: happyAni 30s ease infinite;
   animation: happyAni 30s ease infinite;
-}
+} 
 @-webkit-keyframes happyAni {
     0%{background-position:0% 14%}
     50%{background-position:100% 87%}
