@@ -6,15 +6,15 @@
   "module": "dist/bundle.esm.js",
   "sideEffects": false,
   "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "rollup -c",
+    "lint": "eslint '**/*.js'",
+    "lint:fix": "prettier-eslint '**/*.js' --write",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "test:staged": "jest --findRelatedTests",
     "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
-    "prebuild": "rimraf dist",
-    "build": "rollup -c",
-    "lint": "eslint '**/*.js'",
-    "lint:fix": "prettier-eslint '**/*.js' --write"
+    "test:staged": "jest --findRelatedTests"
   },
   "husky": {
     "hooks": {
