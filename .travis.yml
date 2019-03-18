@@ -6,7 +6,7 @@ node_js:
   - node
 
 script:
-  - npm run lint
+  - npm run lint:fix
   - npm run test:coveralls
 
 notifications:
