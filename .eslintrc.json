@@ -1,8 +1,13 @@
 {
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  },
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:jest/recommended"
-  ],
-  "plugins": ["react"]
+  ]
 }
