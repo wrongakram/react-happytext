@@ -3,7 +3,7 @@ import styles from "./styles.css";
 
 const Happy = props => (
   <>
-    <style>{styles}</style>
+    <style>{`${styles}`}</style>
     <span className="happy-text-element">{props.value}</span>
   </>
 );

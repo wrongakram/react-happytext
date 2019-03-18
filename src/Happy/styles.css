@@ -3,12 +3,10 @@
   background-size: 2000% 2000%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
- -webkit-animation: happyAni 30s ease infinite;
- -moz-animation: happyAni 30s ease infinite;
- animation: happyAni 30s ease infinite;
+  -webkit-animation: happyAni 30s ease infinite;
+  -moz-animation: happyAni 30s ease infinite;
+  animation: happyAni 30s ease infinite;
 }
-
-
 @-webkit-keyframes happyAni {
     0%{background-position:0% 14%}
     50%{background-position:100% 87%}
