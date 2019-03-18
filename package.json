@@ -1,7 +1,7 @@
 {
   "name": "react-happytext",
   "version": "1.0.0",
-  "description": "",
+  "description": "Animated gradients on text elements",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
   "sideEffects": false,
