@@ -5,6 +5,9 @@
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
   "sideEffects": false,
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "rollup -c",
@@ -14,7 +17,8 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
-    "test:staged": "jest --findRelatedTests"
+    "test:staged": "jest --findRelatedTests",
+    "prepublishOnly": "npm run build"
   },
   "husky": {
     "hooks": {
@@ -36,7 +40,7 @@
     "react-happytext"
   ],
   "author": "Akram Khalid",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/akramk22/react-happytext/issues"
   },
