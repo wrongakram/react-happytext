@@ -24,6 +24,6 @@
 
 ## Examples
 
-- [UMD via CDN](./examlpes/cdn)
-- [Create-React-App](./examlpes/cra)
-- [Server-Side Rendering](./examlpes/ssr)
+- [UMD via CDN](./examples/cdn)
+- [Create-React-App](./examples/cra)
+- [Server-Side Rendering](./examples/ssr)
